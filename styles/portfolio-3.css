@@ -161,6 +161,8 @@ main{
     font-size: 20px;
     font-weight: 700px;
     margin-bottom: 20px;
+    margin-top: 20px;
+
 }
 .resume-subtitle-2{
     font-size: 18px;
@@ -171,16 +173,40 @@ main{
     text-align: center;
     margin-top: 30px;
 }   
+.resume-description{
+    margin-bottom: 20px;
+}
 
 /* contact-section-styles */
+.contact{
+    width: 100%;
+    background: #FFF8F3;}
 
 .contact-container{
     display: flex;
     text-align: left;
+    gap: 90px;
+    margin: 0 150px;
 }
 .connect{
     text-align: left;
 }
 .message{
     text-align: left;
+}
+.contact-title{
+    font-size: 30px;
+    font-weight: 1000px;
+    margin-bottom: 20px;
+}
+.contact-description{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+input, textarea{
+    margin-bottom: 20px;
+    border: 0;
+    height: 50px;
+    width: 100%;
+    padding: 18px 30px;
 }
